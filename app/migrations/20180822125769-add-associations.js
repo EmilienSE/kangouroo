@@ -3,7 +3,7 @@ module.exports = {
   up: (queryInterface, Sequelize) => {
     return queryInterface.addColumn(
       'Restaurant',
-      'cateogry_restaurant_id',
+      'category_restaurant_id',
       {
         type: Sequelize.INTEGER,
         onUpdate: 'CASCADE',
