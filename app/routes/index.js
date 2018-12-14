@@ -11,7 +11,6 @@ router.get('/', function(req, res, next) {
 });
 
 router.post('/search/', function(req, res, next) {
-	console.log(app.use(passport.session()));
 	res.redirect('/users/login');
 });
 

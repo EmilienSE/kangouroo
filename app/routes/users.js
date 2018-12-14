@@ -17,10 +17,10 @@ router.post('/add/', (req, res, next) => {
 		email: r.email,
 	}).then(function() {
 		//req.flash('success', "L'utilisateur a bien été ajouté.");
-		res.redirect('/users');
+		res.redirect('localhost:3000');
 	}).catch((err) => {
 		//req.flash('errors', err.message);
-		res.redirect('/users');
+		res.redirect('localhost:3000');
 	});
 });
 
