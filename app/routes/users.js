@@ -7,10 +7,12 @@ router.get('/', function(req, res, next) {
   res.render('users/register.twig');
 });
 
-router.post('/', (req, res, next) => {
+router.post('/add/', (req, res, next) => {
 	const r = req.body;
 	models.User.create({
-		username: r.username,
+		first_name: r.first_name,
+		last_name: r.last_name,
+		phone: r.phone,
 		password: r.password,
 		email: r.email,
 	}).then(function() {

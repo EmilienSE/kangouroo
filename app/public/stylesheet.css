@@ -47,7 +47,7 @@ h3 {
 }
 
 .header-left {
-    background-image: url(img/photo-header1.png);
+    background-image: url(/img/photo-header1.png);
     background-size: cover;
     height: 500px;
 }
@@ -188,7 +188,7 @@ button.btn.btn-default.btn-chaud:hover {
 }
 
 .col-left-chaud {
-    background-image: url(img/chaud1.jpg);
+    background-image: url(/img/chaud1.jpg);
     background-position: 50% 50%;
     background-size: cover;
     height: 236px;
@@ -210,7 +210,7 @@ button.btn.btn-default.btn-chaud:hover {
 }
 
 .col-left-chaud2 {
-    background-image: url(img/chaud3.svg);
+    background-image: url(/img/chaud3.svg);
     background-position: 50% 50%;
     background-size: cover;
     height: 236px;
@@ -220,7 +220,7 @@ button.btn.btn-default.btn-chaud.apple {
     width: 135px;
     height: 40px;
     margin-right: 7px;
-    background-image: url(img/chaud2.svg);
+    background-image: url(/img/chaud2.svg);
     background-position: 0%;
     background-size: cover;
     background-color: #ffffff;
@@ -229,7 +229,7 @@ button.btn.btn-default.btn-chaud.apple {
 button.btn.btn-default.btn-chaud.google {
     width: 135px;
     height: 40px;
-    background-image: url(img/chaud2.svg);
+    background-image: url(/img/chaud2.svg);
     background-position: 100%;
     background-size: cover;
     background-color: #ffffff;
@@ -363,7 +363,7 @@ footer {
 }
 
 .reseaux {
-    background: url(img/reseaux.svg) no-repeat 0 0;
+    background: url(/img/reseaux.svg) no-repeat 0 0;
     background-size: 80px;
     border: 1px solid rgba(232, 164, 16, 0.3);
     height: 40px;
@@ -563,7 +563,7 @@ img.logo-vert.shrink {
     display: inline-block;
     width: 18px;
     height: 18px;
-    background-image: url(img/flag.jpg);
+    background-image: url(/img/flag.jpg);
     background-size: 216px 18px;
     background-repeat: no-repeat;
     margin-right: 10px;
